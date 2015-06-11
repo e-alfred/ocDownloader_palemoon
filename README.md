@@ -20,7 +20,7 @@ The Firefox addon adds an entry to the context menu while right-cliking on a lin
 *The link will be post here when the addon will be available for download*
 
 ### Requierements
-To enjoy all the features of this addon, you have to install [**ocDownloader v1.1**](https://github.com/DjazzLab/ocdownloader)]
+To enjoy all the features of this addon, you have to install [**ocDownloader v1.1**](https://github.com/DjazzLab/ocdownloader)
 
 ## Author
 Xavier Beurois
