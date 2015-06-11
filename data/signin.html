@@ -1,0 +1,154 @@
+<html>
+      <head>
+            <style type="text/css">
+                  html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {
+                        border: 0 none;
+                        cursor: default;
+                        font-family: inherit;
+                        font-size: 100%;
+                        font-weight: inherit;
+                        margin: 0;
+                        outline: 0 none;
+                        padding: 0;
+                        vertical-align: baseline;
+                  }
+                  body {
+                        background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #35537a 0%, #1d2d44 100%) repeat scroll 0 0;
+                        height: 90%;
+                        text-align: center;
+                        color: #FFF;
+                        font-family: "Open Sans",Frutiger,Calibri,"Myriad Pro",Myriad,sans-serif;
+                        font-size: 0.8em;
+                        font-weight: normal;
+                        line-height: 1.6em;
+                        padding-top: 30px;
+                  }
+                  .wrapper {
+                        margin: 0 auto;
+                        min-height: 100%;
+                        width: 260px;
+                  }
+                  #header {
+                        -moz-user-select: none;
+                  }
+                  #header .logo {
+                        background-image: url('img/logo.svg');
+                        background-repeat: no-repeat;
+                        height: 120px;
+                        margin-left: 10px;
+                        width: 252px;
+                        margin-bottom: 10px;
+                  }
+                  .hidden {
+                        display: none;
+                  }
+                  .grouptop, .groupmiddle, .groupbottom {
+                        position: relative;
+                  }
+                  input[type="text"], input[type="password"] {
+                        width: 249px;
+                  }
+                  .grouptop input {
+                        border-bottom: 0 none;
+                        border-top-left-radius: 5px;
+                        border-top-right-radius: 5px;
+                        margin-bottom: 0;
+                  }
+                  .groupmiddle input {
+                        border-bottom: 0 none;
+                        border-radius: 0;
+                        border-top: 0 none;
+                        box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1) inset !important;
+                        margin-bottom: 0;
+                        margin-top: 0;
+                  }
+                  .groupbottom input {
+                        border-top: 0 none;
+                        border-bottom-left-radius: 5px;
+                        border-bottom-right-radius: 5px;
+                        box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1) inset !important;
+                        margin-top: 0;
+                  }
+                  input[type="text"], input[type="password"], input[type="button"] {
+                        border: medium none;
+                  }
+                  input {
+                        font-size: 20px;
+                        margin: 5px;
+                        padding: 11px 10px 9px;
+                  }
+                  #ocurl, #username, #passwd {
+                        padding-left: 36px !important;
+                        width: 223px !important;
+                  }
+                  input[type="text"], input[type="password"] {
+                        -moz-appearance: textfield;
+                        box-sizing: content-box;
+                        background: #fff none repeat scroll 0 0;
+                        color: #555;
+                        cursor: text;
+                        font-family: inherit;
+                  }
+                  #ocurl + label + img, #username + label + img, #passwd + label + img {
+                        left: 16px;
+                        opacity: 0.3;
+                        position: absolute;
+                        top: 22px;
+                        width: 16px;
+                        height: 16px;
+                  }
+                  #username + label + img, #passwd + label + img {
+                        top: 17px;
+                  }
+                  label.infield {
+                        display: none;
+                  }
+                  .login {
+                        margin-right: -13px;
+                  }
+                  input[type="button"] {
+                        padding: 10px 20px;
+                  }
+                  input.login {
+                        float: right;
+                        width: auto;
+                  }
+                  .primary {
+                        background-color: #35537a;
+                        border: 1px solid #1d2d44;
+                        color: #FFF;
+                        cursor: pointer;
+                        font-weight: bold;
+                        min-width: 25px;
+                        outline: medium none;
+                        border-radius: 5px;
+                  }
+            </style>
+      </head>
+      <body>
+            <div class="wrapper">
+                  <div id="header">
+                        <div class="logo svg"></div>
+                  </div>
+                  <p id="message" class="hidden"></p>
+                  <p class="grouptop">
+      			<input type="text" placeholder="" id="ocurl" />
+                        <label class="infield" for="ocurl" id="ocurllbl"></label>
+                        <img src="img/url.svg" class="svg" />
+      		</p>
+                  <p class="groupmiddle">
+                        <input type="text" placeholder="" id="username" />
+                        <label class="infield" for="username" id="usernamelbl"></label>
+                        <img src="img/user.svg" class="svg" />
+                  </p>
+                  <p class="groupbottom">
+      			<input type="password" placeholder="" id="passwd" />
+                        <label class="infield" for="passwd" id="passwdlbl"></label>
+                        <img src="img/password.svg" class="svg" />
+      		</p>
+                  <p class="submit">
+                        <input type="button" class="login primary" id="save" value="" />
+                  </p>
+            </div>
+      </body>
+</html>

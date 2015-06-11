@@ -1,0 +1,9 @@
+{
+  "name": "ocdownloader",
+  "title": "ocDownloader",
+  "id": "jid1-LDmdiZrlQmSnBA",
+  "description": "ocDownloader Firefox addon allows you to interact with ocDownloader (ownCloud) by adding a simple new entry in the mouse context menu",
+  "author": "Xavier Beurois (@DjazzLab)",
+  "license": "MPL 2.0",
+  "version": "0.1"
+}
