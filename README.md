@@ -14,10 +14,15 @@ The Firefox addon adds an entry to the context menu while right-cliking on a lin
 
 ***If you are interested, go to [ocDownloader (Firefox addon) Transifex Project](https://www.transifex.com/projects/p/ocdownloader-firefox-addon)***
 
+### Translators :
+- Spanish : Erik Fargas
+- Russian : AlucoST
+
 ## How to use the addon
 
 ### Download it
 *The link will be post here when the addon will be available for download*
+For now you can download the ocdownloader.xpi file in this repository, and manualy install the addon !
 
 ### Requierements
 To enjoy all the features of this addon, you have to install [**ocDownloader v1.1**](https://github.com/DjazzLab/ocdownloader)
