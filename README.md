@@ -6,6 +6,9 @@ ocDownloader is an application for [ownCloud](https://owncloud.org). ocDownloade
 ## The Firefox addon
 The Firefox addon adds an entry to the context menu while right-cliking on a link (whatever the website).
 
+## ocDownloader required version
+ocDownloader upcoming version 1.2.3 is required !! Otherwise the addon won't work.
+
 ## Gitter Chatroom
 [![Join the chat at https://gitter.im/DjazzLab/ocdownloader_FFAddon](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/DjazzLab/ocdownloader_FFAddon?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
