@@ -77,7 +77,7 @@
                         margin: 5px;
                         padding: 11px 10px 9px;
                   }
-                  #ocurl, #username, #passwd {
+                  #ocurltf, #usernametf, #passwdtf {
                         padding-left: 36px !important;
                         width: 223px !important;
                   }
@@ -89,7 +89,7 @@
                         cursor: text;
                         font-family: inherit;
                   }
-                  #ocurl + label + img, #username + label + img, #passwd + label + img {
+                  #ocurltf + label + img, #usernametf + label + img, #passwdtf + label + img {
                         left: 16px;
                         opacity: 0.3;
                         position: absolute;
@@ -97,7 +97,7 @@
                         width: 16px;
                         height: 16px;
                   }
-                  #username + label + img, #passwd + label + img {
+                  #usernametf + label + img, #passwdtf + label + img {
                         top: 17px;
                   }
                   label.infield {
@@ -130,24 +130,24 @@
                   <div id="header">
                         <div class="logo svg"></div>
                   </div>
-                  <p id="message" class="hidden"></p>
+                  <p id="messagep" class="hidden"></p>
                   <p class="grouptop">
-      			<input type="text" placeholder="" id="ocurl" />
-                        <label class="infield" for="ocurl" id="ocurllbl"></label>
+      			<input type="text" placeholder="" id="ocurltf" />
+                        <label class="infield" for="ocurltf" id="ocurltflbl"></label>
                         <img src="img/url.svg" class="svg" />
       		</p>
                   <p class="groupmiddle">
-                        <input type="text" placeholder="" id="username" />
-                        <label class="infield" for="username" id="usernamelbl"></label>
+                        <input type="text" placeholder="" id="usernametf" />
+                        <label class="infield" for="usernametf" id="usernametflbl"></label>
                         <img src="img/user.svg" class="svg" />
                   </p>
                   <p class="groupbottom">
-      			<input type="password" placeholder="" id="passwd" />
-                        <label class="infield" for="passwd" id="passwdlbl"></label>
+      			<input type="password" placeholder="" id="passwdtf" />
+                        <label class="infield" for="passwdtf" id="passwdtflbl"></label>
                         <img src="img/password.svg" class="svg" />
       		</p>
                   <p class="submit">
-                        <input type="button" class="login primary" id="save" value="" />
+                        <input type="button" class="login primary" id="savebtn" value="" />
                   </p>
             </div>
       </body>
