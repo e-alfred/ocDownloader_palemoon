@@ -6,12 +6,10 @@ var MessageP = document.getElementById ('messagep');
 
 var L10N;
 
-if (!String.prototype.startsWith) {
-  	String.prototype.startsWith = function (SearchString, Position)
-	{
-    	Position = Position || 0;
-    	return this.indexOf (SearchString, Position) === Position;
-  	};
+function StartsWith (String, LookingFor, Position)
+{
+   	Position = Position || 0;
+   	return String.indexOf (LookingFor, Position) === Position;
 }
 
 function ValidURL (URLString)
@@ -21,17 +19,17 @@ function ValidURL (URLString)
 
 SaveBtn.addEventListener('click', function (event)
 {
-	MessageP.innerHTML = '';
+	MessageP.textContent = '';
 	MessageP.style.display = 'none';
 	
-	if (!ValidURL (OCUrlTF.value) || !(OCUrlTF.value.startsWith ('http') || OCUrlTF.value.startsWith ('https')))
+	if (!ValidURL (OCUrlTF.value) || !(StartsWith (OCUrlTF.value, 'http') || StartsWith (OCUrlTF.value, 'https')))
 	{
-		MessageP.innerHTML = L10N.MSG_InvalidURL;
+		MessageP.textContent = L10N.MSG_InvalidURL;
 		MessageP.style.display = 'block';
 	}
 	else
 	{
-		MessageP.innerHTML = L10N.MSG_DataSaved;
+		MessageP.textContent = L10N.MSG_DataSaved;
 		MessageP.style.display = 'block';
 				
 		// If OK, emit data to main.js
@@ -48,15 +46,15 @@ self.port.on ('OCDConnexionInput', function (Data)
 	L10N = Data.L10N;
 	
 	OCUrlTF.placeholder = L10N.PH_OCUrl;
-	document.getElementById ('ocurltflbl').innerHTML = L10N.PH_OCUrl;
-	OCUrlTF.value = Data.Stored ? Data.Stored.OCUrl : '' ; 
+	document.getElementById ('ocurltflbl').textContent = L10N.PH_OCUrl;
+	OCUrlTF.value = Data.Stored ? Data.Stored.OCUrl : '' ;
 	
 	UsernameTF.placeholder = L10N.PH_Username;
-	document.getElementById ('usernametflbl').innerHTML = L10N.PH_Username;
+	document.getElementById ('usernametflbl').textContent = L10N.PH_Username;
 	UsernameTF.value = Data.Stored ? Data.Stored.Username : '';
 	
 	PasswdTF.placeholder = L10N.PH_Password;
-	document.getElementById ('passwdtflbl').innerHTML = L10N.PH_Password;
+	document.getElementById ('passwdtflbl').textContent = L10N.PH_Password;
 	PasswdTF.value = Data.Stored ? Data.Stored.Passwd : '';
 	
 	SaveBtn.value = L10N.SaveBtnTxt;
