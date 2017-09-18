@@ -1,18 +1,11 @@
-# ocDownloader (Firefox addon)
+# ocDownloader extension/addon for Palemoon and Firefox <=56
 
 ## ocDownloader
-ocDownloader is an application for [ownCloud](https://owncloud.org). ocDownloader allows you to download files with multi-protocols using ARIA2 (HTTP(S)/FTP(S)/Youtube/BitTorrent)
+ocDownloader is an application for [Nextcloud](https://www.nextcloud.com) that allows you to download files from different sources using ARIA2 or Curl (HTTP(S)/FTP(S)/Youtube/BitTorrent).
 
-## The Firefox addon
-The Firefox addon adds an entry to the context menu while right-cliking on a link (whatever the website).
+This repository contains the [Jetpack/PMKit](https://wiki.mozilla.org/Jetpack)-compatible extension to add downloads to ocDownloader directly from your browser on any website. The extension adds an entry to the right-click context menu shown after clicking on a link.
 
-## Gitter Chatroom
-[![Join the chat at https://gitter.im/DjazzLab/ocdownloader_FFAddon](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/DjazzLab/ocdownloader_FFAddon?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-## Translations
-***I'm looking for translators, every languages are needed***
-
-***If you are interested, go to [ocDownloader (Firefox addon) Transifex Project](https://www.transifex.com/projects/p/ocdownloader-firefox-addon)***
+To install ocDownloader on Nextcloud : Go to [apps.nextcloud.com](https://apps.nextcloud.com/apps/ocdownloader) and follow the instructions on https://github.com/e-alfred/ocdownloader/ to set it up.
 
 ### Translators :
 - Spanish : Erik Fargas
@@ -20,16 +13,8 @@ The Firefox addon adds an entry to the context menu while right-cliking on a lin
 - German : Sinus23
 
 ## How to use the addon
-### Download it
-https://addons.mozilla.org/en-US/firefox/addon/ocdownloader
-For now you can download the ocdownloader.xpi file in this repository, and manualy install the addon !
+Download the *.xpi file from https://github.com/e-alfred/ocdownloader_FFAddon/releases/tag/ocdownloader-palemoon and install it in Pale Moon.
 
-## ocDownloader required version
-ocDownloader upcoming version 1.2.3 is required !! Otherwise the addon won't work.
-https://github.com/DjazzLab/ocdownloader
-
-## Author
-Xavier Beurois
-- Twitter : [@djazzlab](https://twitter.com/djazzlab)
-- Blog : [Visit SGC-Univ.Net Blog!](https://www.sgc-univ.net)
-- Wiki : [Visit SGC-Univ.Net Wiki!](https://wiki.sgc-univ.net)
+## Authors
+- e-alfred
+- (formerly) Xavier Beurois
