@@ -1,4 +1,4 @@
-# ocDownloader extension/addon for Palemoon and Firefox <=56
+# ocDownloader extension/addon for Palemoon
 
 ## ocDownloader
 ocDownloader is an application for [Nextcloud](https://www.nextcloud.com) that allows you to download files from different sources using ARIA2 or Curl (HTTP(S)/FTP(S)/Youtube/BitTorrent).

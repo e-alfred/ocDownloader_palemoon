@@ -5,9 +5,9 @@
           <em:type>2</em:type>
           <em:bootstrap>true</em:bootstrap>
           <em:unpack>false</em:unpack>
-          <em:version>1.2.4-2</em:version>
+          <em:version>1.2.5</em:version>
           <em:name>ocDownloader</em:name>
-          <em:description>ocDownloader Firefox addon allows you to interact with ocDownloader (ownCloud) by adding a simple new entry in the mouse context menu</em:description>
+          <em:description>ocDownloader Firefox addon allows you to interact with ocDownloader for Nextcloud by adding a simple new entry in the mouse context menu</em:description>
           <em:creator>e-alfred, Xavier Beurois (@DjazzLab)</em:creator>
 
           <em:targetApplication>
